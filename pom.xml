@@ -97,6 +97,19 @@
         <url>https://issues.apache.org/jira/browse/CAMEL</url>
     </issueManagement>
     <distributionManagement>
+        <!-- Release repository -->
+        <repository>
+            <id>reposilite-releases</id>
+            <name>Reposilite Releases</name>
+            <url>https://maven-mirror.digchg.com/releases</url>
+        </repository>
+        <!-- Snapshot repository -->
+        <snapshotRepository>
+            <id>reposilite-snapshots</id>
+            <name>Reposilite Snapshots</name>
+            <url>https://maven-mirror.digchg.com/snapshots</url>
+        </snapshotRepository>
+
         <site>
             <id>apache.website</id>
             <url>${site-repo-url}</url>
