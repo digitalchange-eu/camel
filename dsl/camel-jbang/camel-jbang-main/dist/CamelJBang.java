@@ -18,11 +18,11 @@
  */
 
 //JAVA 21+
-//REPOS central=https://repo1.maven.org/maven2,apache-snapshot=https://repository.apache.org/content/groups/snapshots/
+//REPOS digc=https://maven-mirror.digchg.com/releases,digc-snapshot=https://maven-mirror.digchg.com/snapshots/,central=https://repo1.maven.org/maven2
 //JAVA_OPTIONS -Dcamel.jbang.quarkusVersion=3.33.1
-//DEPS org.apache.camel:camel-bom:${camel.jbang.version:4.18.1}@pom
-//DEPS org.apache.camel:camel-jbang-core:${camel.jbang.version:4.18.1}
-//DEPS org.apache.camel.kamelets:camel-kamelets:${camel-kamelets.version:4.18.0}
+//DEPS org.apache.camel:camel-bom:${camel.jbang.version:4.20.0-digc.1-SNAPSHOT}@pom
+//DEPS org.apache.camel:camel-jbang-core:${camel.jbang.version:4.20.0-digc.1-SNAPSHOT}
+//DEPS org.apache.camel.kamelets:camel-kamelets:${camel-kamelets.version:4.20.0}
 
 package main;
 
